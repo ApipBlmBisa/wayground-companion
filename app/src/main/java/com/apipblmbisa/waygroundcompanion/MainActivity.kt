@@ -45,7 +45,7 @@ class MainActivity : Activity() {
 
         input = EditText(this).apply {
             hint = "Tempel tautan HTTPS di sini"
-            singleLine = true
+            maxLines = 1
             textSize = 15f
             setPadding(12, 10, 12, 10)
         }
